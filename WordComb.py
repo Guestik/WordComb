@@ -10,10 +10,6 @@ listOfWords = list();
 listOfResults = list();
 nameOfFile = raw_input("Name of new file: ");
 append = False;
-
-#from os.path import exists
-#print exists("C:\somefile.txt")
-
 import os
 if os.path.isfile(nameOfFile + ".txt"):
   append = True;
