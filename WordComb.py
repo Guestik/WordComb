@@ -16,7 +16,7 @@ if os.path.isfile(nameOfFile + ".txt"):
   import imp
   try:
     imp.find_module('termcolor')
-    imp.find_module('termcolor')
+    imp.find_module('colored')
     from termcolor import colored
     print colored("Warning: File already exists! Going to append new words" , 'red');
   except ImportError:
